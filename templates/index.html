@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simple RAG QA System</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>🔍 Ask Question</h1>
+    <textarea id="question" placeholder="Type your question here..."></textarea>
+    <button onclick="submitQuestion()">Ask</button>
+    <div id="loader" class="hidden">⏳ Thinking...</div>
+    <div id="answer"></div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+
+</html>

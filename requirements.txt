@@ -1,0 +1,12 @@
+langchain>=0.1.16
+langchain-community>=0.0.26
+langchain-core>=0.1.43
+faiss-cpu
+sentence-transformers
+python-dotenv
+bs4
+sentence-transformers
+langchain-groq
+flask
+huggingface-hub
+
