@@ -17,12 +17,18 @@ The Groq LLM (llama3-8b-8192) uses the input + retrieved documents to generate a
 code includes the following components:
 
 File/Directory	Description
-app.py	Streamlit/Flask web app for UI and question answering
-utils.py (optional)	Helper functions for loading docs, vector creation, and embeddings
-data/	Stores sample PDFs and text files (e.g., DeepLearning.pdf)
-faiss_index/	Folder where vector embeddings are stored locally
-.env	Stores GROQ_API_KEY securely
-requirements.txt	List of all required dependencies
+
+app.py:	Streamlit/Flask web app for UI and question answering
+
+utils.py: (optional)	Helper functions for loading docs, vector creation, and embeddings
+
+data/	Stores:  sample PDFs and text files (e.g., DeepLearning.pdf)
+
+faiss_index/	: Folder where vector embeddings are stored locally
+
+.env :	Stores GROQ_API_KEY securely
+
+requirements.txt :	List of all required dependencies
 
 💻 How to Use This RAG Application
 ✅ Prerequisites
@@ -30,4 +36,5 @@ Python 3.8 or above
 
 pip (Python package installer)
 A valid GROQ_API_KEY (Free from Groq)
+
 
