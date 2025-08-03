@@ -16,6 +16,11 @@ The Groq LLM (llama3-8b-8192) uses the input + retrieved documents to generate a
 🧩 Inside the Code
 code includes the following components:
 
+## Project Banner
+
+![Project Banner](assets/banner.png)
+
+
 File/Directory	Description
 
 app.py:	Streamlit/Flask web app for UI and question answering
@@ -36,5 +41,6 @@ Python 3.8 or above
 
 pip (Python package installer)
 A valid GROQ_API_KEY (Free from Groq)
+
 
 
