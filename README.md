@@ -18,7 +18,7 @@ code includes the following components:
 
 ## Project Banner
 
-![Project Banner](assets/banner.png)
+![Project Banner](banner.png)
 
 
 File/Directory	Description
@@ -41,6 +41,7 @@ Python 3.8 or above
 
 pip (Python package installer)
 A valid GROQ_API_KEY (Free from Groq)
+
 
 
 
